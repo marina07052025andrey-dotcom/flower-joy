@@ -1,0 +1,34 @@
+.DS_Store
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+build/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Pods
+ios/Pods/
+local.properties
+.idea/
+.vscode/
+*.iml
+*.lock
+pubspec.lock
+
+# Avoid committing generated files
+android/.gradle
+android/local.properties
+android/app/debug
+android/app/profile
+android/app/release
+
+# Audio and animation files (use scripts to generate)
+assets/audio/*.mp3
+assets/lottie/*.json
+!scripts/
